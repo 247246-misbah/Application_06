@@ -1,4 +1,6 @@
 using Application_06.Components;
+using Application_06.Models;
+using Application_06.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,21 +8,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+// Register configuration and notification services
+builder.Services.AddSingleton<NotificationConfig>();
+builder.Services.AddScoped<NotificationService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
-app.UseHttpsRedirection();
 
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapStaticAssets();
+// CHANGED: Removed the specific namespace prefix so it dynamically resolves the App component 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

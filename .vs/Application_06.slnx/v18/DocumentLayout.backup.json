@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Application_06\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\components\\pages\\notificationdisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:components\\pages\\notificationdisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\components\\pages\\notificationsettings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:components\\pages\\notificationsettings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|c:\\users\\dell\\source\\repos\\application_06\\models\\notificationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4582B7BA-5A87-A4E2-577E-496E45D51D14}|Application_06.csproj|solutionrelative:models\\notificationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:38:36.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Models\\NotificationConfig.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationConfig.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Models\\NotificationConfig.cs",
+              "RelativeToolTip": "Models\\NotificationConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:36:45.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationSettings.razor",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Pages\\NotificationSettings.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\NotificationSettings.razor",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Pages\\NotificationSettings.razor",
+              "RelativeToolTip": "Components\\Pages\\NotificationSettings.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T20:39:06.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Pages\\NotificationDisplay.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\NotificationDisplay.razor",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Pages\\NotificationDisplay.razor",
+              "RelativeToolTip": "Components\\Pages\\NotificationDisplay.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv10AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T20:39:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA4wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:38:07.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T20:39:55.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Application_06\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T20:41:54.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

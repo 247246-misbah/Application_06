@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dEyIQUDR18Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Application_06\\Application_06.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.6\\microsoft.aspnetcore.app.internal.assets.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

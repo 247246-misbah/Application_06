@@ -1,0 +1,45 @@
+﻿@page "/notification-settings"
+@rendermode InteractiveServer
+@inject Application_06.Models.NotificationConfig Config
+
+<div class="card shadow-sm border-0 rounded-3 max-width-card mt-4">
+    <div class="card-header bg-dark text-white rounded-top-3 py-3">
+        <h5 class="mb-0 d-flex align-items-center">
+            <i class="bi bi-gear-fill me-2"></i> Global Notification Settings
+        </h5>
+    </div>
+    <div class="card-body p-4">
+        <div class="mb-4">
+            <label class="form-label fw-semibold text-secondary">Default Number of Notifications</label>
+            <input type="number"
+                   class="form-control form-control-lg"
+                   @bind-value="Config.DefaultNumberOfNotifications"
+                   min="1"
+                   max="10" />
+            <div class="form-text">Controls how many items generate by default.</div>
+        </div>
+
+        <div class="mb-4">
+            <label class="form-label fw-semibold text-secondary">Display Layout Style</label>
+            <select class="form-select form-control-lg" @bind="Config.NotificationStyle">
+                <option value="Compact">Compact View (Icon & Title Only)</option>
+                <option value="Detailed">Detailed View (Full Body & Timestamps)</option>
+            </select>
+            <div class="form-text">Changes how items render on the dashboard view.</div>
+        </div>
+        
+        <div class="alert alert-info border-0 rounded-3 d-flex align-items-center mb-0" role="alert">
+            <i class="bi bi-info-circle-fill fs-5 me-2"></i>
+            <div>
+                <strong>Current State:</strong> Style = @Config.NotificationStyle | Count = @Config.DefaultNumberOfNotifications
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .max-width-card {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+</style>
